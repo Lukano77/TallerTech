@@ -5,13 +5,14 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl : "https://pushing-it.vercel.app",
+  baseUrl : "https://demo.testim.io",
+    experimentalSessionAndOrigin: true,
+    defaultCommandTimeout: 1000,
+    watchForFileChanges: false,
+    supportFile:false
   },
   env: {
-    usuario:"pushingit",
-    password:"123456!",
-    baseUrlApi: "https://pushing-it.onrender.com/api",
-    token : ''
+    usuario:"admin",
+    password:"admin123!"
   }
 });
-

@@ -6,8 +6,6 @@ import { orderSummary } from "../support/PageObject/ordersummary";
 describe('Embryoxite Demo Test', () =>{
     const loginPages = new loginPage();
     const mainPages = new mainPage();
-    const checkoutPages = new checkOutPage()
-    const summary = new orderSummary()
     before(() => {
 
         cy.visit('');
